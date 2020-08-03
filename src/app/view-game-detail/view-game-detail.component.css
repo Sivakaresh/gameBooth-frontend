@@ -1,0 +1,25 @@
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 15px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.border {
+  border: 5px solid black;
+}
+
+.start::before {
+  content: "Start";
+}
+.stop::before {
+  content: "Stop";
+}
+.resume::before {
+  content: "Resume";
+}

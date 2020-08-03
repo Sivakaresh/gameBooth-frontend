@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gamebooth-frontend"
+    }
+  },
+  "defaultProject": "gamebooth-frontend",
+  "cli": {
+    "analytics": false
+  }
 }
