@@ -7,9 +7,10 @@ import { AddGameDetailComponent } from './add-game-detail/add-game-detail.compon
 import { ViewGameDetailComponent } from './view-game-detail/view-game-detail.component';
 import { FormsModule } from '@angular/forms';
 import { CustomerComponent } from './customer/customer.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
-  declarations: [AppComponent, AddGameDetailComponent, ViewGameDetailComponent, CustomerComponent],
+  declarations: [AppComponent, AddGameDetailComponent, ViewGameDetailComponent, CustomerComponent, NavbarComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],

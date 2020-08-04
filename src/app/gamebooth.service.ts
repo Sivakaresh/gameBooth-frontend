@@ -17,4 +17,8 @@ export class GameboothService {
   addGame(gameDetails: Object) {
     return this.http.post(this.url + 'add', gameDetails);
   }
+
+  getBoothById(id: number): Observable<GameBooth> {
+    return this.http.get<GameBooth>(this.url + 'view/' + id);
+  }
 }

@@ -10,6 +10,7 @@ import { from } from 'rxjs';
 })
 export class AddGameDetailComponent implements OnInit {
   gameBoothModel: GameBooth;
+  timeValue: number = 3600;
   constructor(
     private gameBoothService: GameboothService,
     private router: Router

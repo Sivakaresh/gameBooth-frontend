@@ -1,9 +1,8 @@
-<div class="container">
+<div class="container" class="col-md-6">
   <div>
     <h1>Enter Game Details</h1>
   </div>
   <form #gameFormData="ngForm" (ngSubmit)="onSubmit()">
-    {{ gameBoothModel | json }}
     <div class="form-group">
       <label for="row1">Booth Name</label>
       <input
